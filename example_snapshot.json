@@ -1,0 +1,36 @@
+{
+  "snapshot_date": "2026-08-19",
+  "checkouts": [
+    {
+      "checkout_id": "co_17",
+      "customer_id": "cus_8",
+      "currency": "USD",
+      "total": "42.50",
+      "placed_at": "2026-08-19T21:10:00Z"
+    }
+  ],
+  "fulfillments": [
+    {
+      "order_id": "ord_17",
+      "status": "shipped",
+      "updated_at": "2026-08-19T22:00:00Z"
+    }
+  ],
+  "receipts": [
+    {
+      "receipt_id": "rcpt_17",
+      "order_id": "ord_17",
+      "amount": "42.50",
+      "issued_at": "2026-08-19T21:11:00Z"
+    }
+  ],
+  "customer_updates": [
+    {
+      "customer_id": "cus_8",
+      "order_id": "ord_17",
+      "state": "fulfilled",
+      "changed_at": "2026-08-19T22:00:00Z"
+    }
+  ]
+}
+
